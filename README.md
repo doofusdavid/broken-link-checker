@@ -96,11 +96,9 @@ https://example.com,https://example.com/another-broken,500
 The easiest way to use the link checker is to pull the pre-built image from GitHub Container Registry:
 
 ```bash
-docker pull ghcr.io/OWNER/broken-link-checker:latest
-docker run ghcr.io/OWNER/broken-link-checker https://example.com
+docker pull ghcr.io/doofusdavid/broken-link-checker:latest
+docker run ghcr.io/doofusdavid/broken-link-checker https://example.com
 ```
-
-Replace `OWNER` with the GitHub username or organization name where this repository is hosted.
 
 ### Building Locally
 
