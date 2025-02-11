@@ -3,6 +3,7 @@ import argparse
 import cloudscraper
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
+# Some good documentation
 
 def is_valid_link(link):
     if not link:
